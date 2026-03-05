@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-heading {
+  margin-bottom: 2rem;
+}
+
+.main-heading h1 {
+  color: #646cff;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+form button {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-color: #646cff;
+}
+
+.product-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #646cff;
+  margin: 0.5rem 0;
+}
+
+.product-desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+@media (prefers-color-scheme: light) {
+  form {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+
+  form input {
+    background-color: #fff;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #213547;
+  }
+
+  form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .product-card {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .product-card:hover {
+    border-color: #646cff;
+  }
+
+  .product-name {
+    color: #213547;
+  }
+
+  .product-desc {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
