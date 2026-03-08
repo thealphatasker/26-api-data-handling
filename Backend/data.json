@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook",
+    "price": 199,
+    "desc": "The classic Laptop",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6HXk8xUDy1Yu2Q-sBiDWrUr5dO9abdKCVw&s"
+  },
+  {
+    "id": 2,
+    "name": "laptop",
+    "price": 3133,
+    "desc": "desssssasasas",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5eZBdhEuZQ8G8qWL1u21TWeTpd992m5sZGA&s"
+  }
+]
