@@ -214,6 +214,7 @@ function App() {
         {products.map((pr) => {
           return (
             <div key={pr.id} className="product-card">
+              <div className="product-id">#{pr.id}</div>
               <img src={pr.img} alt={pr.name} />
               <h3 className="product-name">{pr.name}</h3>
               <p className="product-price">${pr.price}</p>

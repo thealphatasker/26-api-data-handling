@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "name": "MacBook",
-    "price": 199,
-    "desc": "The classic Laptop",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6HXk8xUDy1Yu2Q-sBiDWrUr5dO9abdKCVw&s"
+    "name": "ASUS ROG STRIX Z590-E GAMING WIFI",
+    "price": 299,
+    "desc": "A Gaming MotherBoard",
+    "img": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/961983ae6e24287167577b59a51a2b0b/original.jpg"
   },
   {
     "id": 2,
-    "name": "laptop",
-    "price": 3133,
-    "desc": "desssssasasas",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5eZBdhEuZQ8G8qWL1u21TWeTpd992m5sZGA&s"
+    "name": "Samsung 980 Pro NVME",
+    "price": 139,
+    "desc": "Solid State Drive with higher speed",
+    "img": "https://static.webx.pk/files/19643/Images/2-czone.com.pk-1540-11402-120421064040-19643-686890-010921081649.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Corsair 16GB DDR4 - Ram",
+    "price": 399,
+    "desc": "High Speed Computer Ram",
+    "img": "https://img.drz.lazcdn.com/static/pk/p/0c9138479f72e8b88c74fde25194c2fb.jpg_720x720q80.jpg"
   }
 ]
