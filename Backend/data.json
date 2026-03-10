@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "ASUS ROG STRIX Z590-E GAMING WIFI",
-    "price": 299,
-    "desc": "A Gaming MotherBoard",
-    "img": "https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/961983ae6e24287167577b59a51a2b0b/original.jpg"
+    "name": "Asus ROG Strix Z590-E Gaming Mobo",
+    "price": 459,
+    "desc": "The Powerful Gaming Motherboard for the Ultimate Gaming Experience",
+    "img": "https://m.media-amazon.com/images/I/712eN7mlJwL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "id": 2,
-    "name": "Samsung 980 Pro NVME",
-    "price": 139,
-    "desc": "Solid State Drive with higher speed",
-    "img": "https://static.webx.pk/files/19643/Images/2-czone.com.pk-1540-11402-120421064040-19643-686890-010921081649.jpg"
+    "name": "Corsair Vengeance RGB Pro 16-GB DDR4 RAM",
+    "price": 298,
+    "desc": "The Ultimate RGB Memory for High-Performance Gaming",
+    "img": "https://static-01.daraz.pk/p/171a22a5ea1dcf4ccffd959d03b9108e.jpg"
   },
-  {
+    {
     "id": 3,
-    "name": "Corsair 16GB DDR4 - Ram",
-    "price": 399,
-    "desc": "High Speed Computer Ram",
-    "img": "https://img.drz.lazcdn.com/static/pk/p/0c9138479f72e8b88c74fde25194c2fb.jpg_720x720q80.jpg"
+    "name": "Samsung 980 Pro 500GB NVMe M.2 SSD",
+    "price": 7788,
+    "desc": "NVMe SSD for Lightning-Fast Performance",
+    "img": "https://myshop.pk/pub/media/catalog/product/cache/26f8091d81cea4b38d820a1d1a4f62be/5/0/500gb-myshop-pk-4.jpg"
   }
 ]
